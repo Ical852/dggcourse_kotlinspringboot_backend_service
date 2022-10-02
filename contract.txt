@@ -1,0 +1,65 @@
+article service =
+- get all articles - desc / asc
+- get article by id
+- get home article - 3 min - popular
+article with comments, article category - comments with reply
+
+category
+- get all category
+- get category by id
+
+course
+- get all course
+- get course by id
+- get 3 popular course
+- get 6 asc course 
+with about, lesson, tools, resource, reviews, mentor, category, rating
+
+comment
+- post comments
+- delete comments
+- give comment like
+
+notification
+- get all notification
+- get notification by id
+- create notification
+
+rating
+- post ratings
+
+reply
+- post reply
+- delete reply
+- give reply likes
+
+review
+- post review
+
+topup
+- post top up
+- get all top up
+- get top up by id
+with user
+
+transaction
+- post transaction
+- get all transaction
+- get transaction by id
+with course, user
+
+user service = 
+- get user data by id
+- register
+- login
+- update dggm
+- update data profile
+- update role
+- update interest
+- update password
+
+user course
+- post user course
+- get all user course
+- get user course by id
+with course, user
